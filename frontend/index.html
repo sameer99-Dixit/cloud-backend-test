@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cloud Monitoring Lab</title>
+</head>
+<body>
+    <h1>Welcome to My Cloud Monitoring Lab</h1>
+    <p>Nginx frontend is working!</p>
+
+    <button onclick="checkAPI()">Check Backend API</button>
+    <p id="result"></p>
+
+    <script>
+        async function checkAPI() {
+            const response = await fetch('/api/health');
+            const data = await response.json();
+            document.getElementById('result').innerText =
+                JSON.stringify(data);
+        }
+    </script>
+</body>
+</html>

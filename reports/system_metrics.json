@@ -1,0 +1,30 @@
+{
+  "hostname": "LAPTOP-0CAL4LHL",
+  "timestamp": "2026-11-02T18:39:03+00:00",
+  "uptime": "up 55 minutes",
+  "cpu": {
+    "usage_percent": 0.00
+  },
+  "memory": {
+    "total_bytes": 3746189312,
+    "used_bytes": 588832768,
+    "usage_percent": 15.72
+  },
+  "disk": {
+    "total_bytes": 1081101176832,
+    "used_bytes": 2551361536,
+    "available_bytes": 1023557459968,
+    "usage_percent": 1
+  },
+  "load_average": {
+    "one_minute": "0.03",
+    "five_minutes": "0.06",
+    "fifteen_minutes": "0.02"
+  },
+  "top_processes": "   3604 ps               100  0.1\n   3590 monitor.sh       0.9  0.1\n      1 systemd          0.2  0.4\n   3299 python           0.1  0.9\n     51 systemd-journal  0.1  0.5",
+  "listening_ports": "127.0.0.53%lo:53\n127.0.0.54:53\n0.0.0.0:8080\n127.0.0.1:5000\n0.0.0.0:80\n0.0.0.0:22\n10.255.255.254:53\n[::]:80\n[::]:22",
+  "services": {
+    "nginx": "active",
+    "backend": "activating"
+  }
+}
